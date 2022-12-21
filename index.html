@@ -8,23 +8,24 @@
     <header>
     <div class="cont">
         <div class="brand">
-            <a href="/UI/dashboard.html"><div class="logo"><img src="UI/static/img/logo.svg" alt=""></div></a>
+            <a href="/UI/dashboard.html"><div class="logo"><img src="./images/bg3.jpg" alt=""></div></a>
             <a href="/UI/dashboard.html"><div class="name"><span>Century Express</span></div></a>
         </div>
         <nav>
            <div class="nav">
                 <ol>
-                    <li ><a href="/UI/admin-dashboard.html">Admin Dashboard</a></li>
-                    <li ><a href="/UI/dashboard.html">Dashboard</a></li>
-                    <li class="login"><a href="UI/login.html">Login</a></li>
-                    <li class="register"><a href="UI/registration.html">Register</a></li>
+                    <li id="admDashboard"><a href="#">Admin Dashboard</a></li>
+                    <li id="dashboard"><a href="#">Dashboard</a></li>
+
+                    <li  id="login" class="login"><a href="#">Login</a></li>
+                    <li id="register" class="register"><a href="#">Register</a></li>
                 </ol>
             </div>
         </nav>
     </div>
     </header>
     <div id="mantra">
-    <img src="UI/static/img/bg3.jpg" alt="">
+    <img src="#" alt="">
     <div id="words" class="centered">
         <div class="big-words">
             <span>Deliver, Anywhere, Everywhere, Everything; Fast!</span>
@@ -41,33 +42,34 @@
             <div class="step">
                 <div class="head"><span class="num">1</span><span class="heading">Create Order</span></div>
                 <div class="description">
-                    <ol>
-                        <li>Create account and login</li>
+                    <ol id="create">
+                        <!-- <li>Create account and login</li>
                         <li>Click create order</li>
                         <li>Specify pickup location and destination</li>
-                        <li>Wait</li>
+                        <li>Wait</li> -->
                     </ol>
                 </div>
             </div>
             <div class="step">
                     <div class="head"><span class="num">2</span><span class="heading">Order Pickup</span></div>
                     <div class="description">
-                        <ol>
-                            <li>We will come to your pickup location</li>
+                        <ol id="pick">
+                            <!-- <li>We will come to your pickup location</li>
                             <li>We will weigh your parcel</li>
                             <li>The price will reflect on your account</li>
-                            <li>The transit will start</li>
+                            <li>The transit will start</li> -->
                         </ol>
                     </div>
             </div>
             <div class="step">
                     <div class="head"><span class="num">3</span><span class="heading">Delivery</span></div>
                     <div class="description">
-                        <ol>
-                            <li>You will get current parcel location updates</li>
+                        <ol id="delivery">
+                            <!-- <li>You will get current parcel location updates</li>
                             <li>You will be notified when your parcel has been delivered</li>
                             <li>You'll pay on delivery</li>
-                            <li>That's it!</li>
+                            <li>That's it!</li> -->
+                        </ol>
                     </div>
             </div>
         </div>
@@ -75,5 +77,6 @@
         </div>
 
     </div>
+    <script src="./index.js"></script>
 </body>
 </html>

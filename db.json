@@ -1,0 +1,68 @@
+{
+"Create Order" :[ {
+     "id": 1,
+    "description" : "Create account and login"
+},
+
+{
+    "id": 2,
+"description" : "Click create order"
+},
+
+{
+    "id": 3,
+    "description" : "Specify pickup location and destination"
+},
+
+{
+    "id": 4,
+    "description" : "Wait"
+
+}
+],
+
+"Order Pickup" :[{
+    "id": 5,
+    "description" : "We will come to your pickup location"
+},
+
+{
+    "id": 6,
+    "description" : "We will weigh your parcel"
+},
+
+{
+    "id": 7,
+    "description" : "The price will reflect on your account"
+},
+
+{
+    "id": 8,
+    "description" : "The transit will start"
+}
+],
+"Delivery" :[{
+
+        "id": 9,
+        "description" : "You will get current parcel location updates"
+},
+
+{
+    "id": 10,
+    "description" : "You will be notified when your parcel has been delivered"
+},
+
+{
+    "id": 11,
+    "description" : "You'll pay on delivery"
+},
+
+{
+    "id": 12,
+    "description" : "That's it!"
+}
+]
+}
+
+
+
